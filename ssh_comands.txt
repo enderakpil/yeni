@@ -11,3 +11,19 @@ $ clip < ~/.ssh/id_rsa.pub
 
 git remote add origin git@github.com:enderakpil/yeni.git
 git push -u origin master
+
+heroku ile ilgli komutlar
+
+PS G:\LearningArea\JavaScript\Udemy\AndrewMead\Nodejs\yeni> heroku -v
+heroku/7.38.2 win32-x64 node-v12.13.0
+PS G:\LearningArea\JavaScript\Udemy\AndrewMead\Nodejs\yeni> heroku login
+heroku: Press any key to open up the browser to login or q to exit:
+Opening browser to https://cli-auth.heroku.com/auth/cli/browser/f4d77e7d-1a7b-4f69-ad7b-4d8ce42ec78b
+Logging in... done
+Logged in as enderakpil@gmail.com
+PS G:\LearningArea\JavaScript\Udemy\AndrewMead\Nodejs\yeni> heroku keys:add
+? Which SSH key would you like to upload? C:\Users\Ender\.ssh\id_rsa.pub
+Uploading C:\Users\Ender\.ssh\id_rsa.pub SSH key... done
+PS G:\LearningArea\JavaScript\Udemy\AndrewMead\Nodejs\yeni> heroku create ea-weather-app
+Creating ⬢ ea-weather-app... done
+https://ea-weather-app.herokuapp.com/ | https://git.heroku.com/ea-weather-app.git
