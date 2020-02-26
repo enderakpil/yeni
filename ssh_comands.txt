@@ -8,3 +8,6 @@ $ ssh-add ~/.ssh/id_rsa
 Identity added: /c/Users/Ender/.ssh/id_rsa (/c/Users/Ender/.ssh/id_rsa)
 Ender ~
 $ clip < ~/.ssh/id_rsa.pub
+
+git remote add origin git@github.com:enderakpil/yeni.git
+git push -u origin master
