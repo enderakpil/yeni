@@ -1,0 +1,10 @@
+$ eval $(ssh-agent -s)
+Agent pid 24004
+Ender ~
+$ pwd
+/c/Users/Ender
+Ender ~
+$ ssh-add ~/.ssh/id_rsa
+Identity added: /c/Users/Ender/.ssh/id_rsa (/c/Users/Ender/.ssh/id_rsa)
+Ender ~
+$ clip < ~/.ssh/id_rsa.pub
